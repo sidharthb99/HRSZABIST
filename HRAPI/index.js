@@ -567,6 +567,17 @@ app.get('/loc_toronto', async (req, res) => {
     }
 });
 
+app.get('/country', async (req, res) => {
+    try {
+        const result = await pool.query('SELECT * from countries');
+        res.json(result.rows);
+    }
+    catch (error) {
+        res.status(500).json({ Error: err.message });
+    }
+});
+
+
 
 
 const PORT = process.env.PORT;
