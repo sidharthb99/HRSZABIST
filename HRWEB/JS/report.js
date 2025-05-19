@@ -1,4 +1,4 @@
-const emp_count_Link = "https://studious-dollop-7vw6q5vw69693r5g6-6006.app.github.dev/tolemp";
+const emp_count_Link = "https://effective-waddle-q76jr49r66xw29g55-6006.app.github.dev/tolemp";
 
 fetch(emp_count_Link).then(response=>{
     if(!response.ok)
@@ -10,7 +10,7 @@ fetch(emp_count_Link).then(response=>{
     console.log(err.message);
 });
 
-const reg_count_Link = "https://studious-dollop-7vw6q5vw69693r5g6-6006.app.github.dev/tolreg";
+const reg_count_Link = "https://effective-waddle-q76jr49r66xw29g55-6006.app.github.dev/tolreg";
 
 fetch(reg_count_Link).then(response=>{
     if(!response.ok)
@@ -22,7 +22,7 @@ fetch(reg_count_Link).then(response=>{
     console.log(err.message);
 });
 
-const loc_count_Link = "https://studious-dollop-7vw6q5vw69693r5g6-6006.app.github.dev/tolloc";
+const loc_count_Link = "https://effective-waddle-q76jr49r66xw29g55-6006.app.github.dev/tolloc";
 
 fetch(loc_count_Link).then(response=>{
     if(!response.ok)
@@ -34,7 +34,7 @@ fetch(loc_count_Link).then(response=>{
     console.log(err.message);
 });
 
-const con_count_Link = "https://studious-dollop-7vw6q5vw69693r5g6-6006.app.github.dev/tolcon";
+const con_count_Link = "https://effective-waddle-q76jr49r66xw29g55-6006.app.github.dev/tolcon";
 
 fetch(con_count_Link).then(response=>{
     if(!response.ok)
@@ -46,7 +46,7 @@ fetch(con_count_Link).then(response=>{
     console.log(err.message);
 });
 
-const dep_count_Link = "https://studious-dollop-7vw6q5vw69693r5g6-6006.app.github.dev/toldep";
+const dep_count_Link = "https://effective-waddle-q76jr49r66xw29g55-6006.app.github.dev/toldep";
 
 fetch(dep_count_Link).then(response=>{
     if(!response.ok)
@@ -58,7 +58,7 @@ fetch(dep_count_Link).then(response=>{
     console.log(err.message);
 });
 
-const jh_count_Link = "https://studious-dollop-7vw6q5vw69693r5g6-6006.app.github.dev/toljh";
+const jh_count_Link = "https://effective-waddle-q76jr49r66xw29g55-6006.app.github.dev/toljh";
 
 fetch(jh_count_Link).then(response=>{
     if(!response.ok)
@@ -70,7 +70,7 @@ fetch(jh_count_Link).then(response=>{
     console.log(err.message);
 });
 
-const job_count_Link = "https://studious-dollop-7vw6q5vw69693r5g6-6006.app.github.dev/job";
+const job_count_Link = "https://effective-waddle-q76jr49r66xw29g55-6006.app.github.dev/job";
 
 fetch(job_count_Link).then(response=>{
     if(!response.ok)
